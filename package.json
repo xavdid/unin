@@ -1,0 +1,32 @@
+{
+  "name": "unin",
+  "version": "0.1.0",
+  "description": "Uninstall your node_modules or bower_packages folder",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavdidtheshadow/unin.git"
+  },
+  "keywords": [
+    "uninstall",
+    "remove",
+    "delete",
+    "node_modules",
+    "bower_components"
+  ],
+  "author": "David Brownman <beamneocube@gmail.com> (http://davidbrownman.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavdidtheshadow/unin/issues"
+  },
+  "homepage": "https://github.com/xavdidtheshadow/unin#readme",
+  "dependencies": {
+    "rimraf": "^2.5.2"
+  },
+  "bin": {
+    "unin": "./index.js"
+  },
+  "preferGlobal": "true"
+}
