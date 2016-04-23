@@ -1,7 +1,7 @@
 {
   "name": "unin",
   "version": "0.1.0",
-  "description": "Uninstall your node_modules or bower_packages folder",
+  "description": "Uninstall your bower_packages directory, minding config",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

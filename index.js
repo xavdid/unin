@@ -12,7 +12,7 @@ function delete_directory(path) {
     if (err) {
       console.error(`Unable to clear ${path}`);
     }
-    // done! 
+    // done!
   });
 }
 
