@@ -1,3 +1,3 @@
 # unin
 
-Uninstall your local node modules, wherever they are
+Uninstall your local bower_components, wherever they are

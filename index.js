@@ -5,7 +5,7 @@ const fs = require('fs');
 const rm = require('rimraf');
 
 function delete_directory(path) {
-  // use a default 
+  // use the default
   path = path || 'bower_components';
   // console.log('path is',path);
   rm(`./${path}`, (err) => {
@@ -16,9 +16,9 @@ function delete_directory(path) {
   });
 }
 
-fs.access('.bowerrc', fs.F_OK | fs.R_OK, (err) => {
+fs.access('.bowerrc', fs.R_OK, (err) => {
   if (err) {
-    // bowerrc doesn't exist, use bower_components
+    // no config, use default
     delete_directory();
   } else {
     fs.readFile('.bowerrc', (err, file) => {
